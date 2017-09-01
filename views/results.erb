@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> YogiMePositive </title>
+     <link rel="stylesheet" href="css/style.css">
+  </head>
+  <link rel="shortcut icon" href="images/faviconTEST1.png" />
+  <body id = "results">
+  
+   
+   <h1 id = "results"><%=@user_time%> minute activity for <%=@user_activity%></h1>
+   <section class= "video">
+   <iframe width="560" height="315" src=<%=@result%> frameborder="0" allowfullscreen></iframe>
+   <h1 id = "results">Ponder some positivity: </h1>
+    <h2><%=@fortuneArray%></h2>
+    </section>
+    
+  </body>
+  
+  <!-- BeginHeader -->
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+
+  <div class="w3-center">
+    <div class="w3-padding-32">
+      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="window.location.href='/questionaire'" style="font-weight:900;">Choose again?</button>
+    </div>
+  </div>
+</header>
+
+</html>

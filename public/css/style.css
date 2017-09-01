@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive; font-size: 70px;
+    font-weight: bold;
+    color: black;
+}
+
+.video {
+    width: 560px;
+    height: 315px;
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    margin: auto;
+}
+.frontbox {
+    font-family: 'Indie Flower', cursive; font-size: 25px;
+}
+#about {
+    cursor: url('../images/download.png'), auto;
+    font-family: 'Indie Flower', cursive; font-size: 10px;
+    background-image: url("https://i.pinimg.com/736x/5c/20/8f/5c208f1b14219901b3320d706d24c216--ombre-watercolor-background-purple-watercolor.jpg");
+}
+
+#abouthead {
+    cursor: url('../images/download.png'), auto;
+    font-family: 'Indie Flower', cursive; font-size: 20px;
+}
+
+#body {
+    cursor: url('../images/download.png'), auto;
+    font-family: 'Allura';font-size: 22px;
+
+    background-image: url("https://i.pinimg.com/736x/5c/20/8f/5c208f1b14219901b3320d706d24c216--ombre-watercolor-background-purple-watercolor.jpg");
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background-color: black;*/
+}
+
+.custom {
+  cursor: url(images/cursorDove.png), auto;
+}
+
+.questionaire {
+    text-align: center;
+    font-family: 'Indie Flower', cursive; font-size: 25px;
+    font-weight: bold;
+    color: black;
+    background-position: center;
+    background-size: cover;
+    
+    background-image: url(https://i.pinimg.com/originals/dc/4d/a7/dc4da7b8bf361499084f789df9e10aa8.jpg)
+
+}
+
+#results {
+     
+     background-image: url(https://i.pinimg.com/originals/43/0f/23/430f236c26b5ea783b4685a67065bde6.jpg);
+    background-size: cover;
+    font-family: 'Indie Flower', cursive; font-size: 25px;
+}
+
